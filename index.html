@@ -3,10 +3,91 @@
 <head>
     <style>
    
+body {
+  font-family: -apple-system, BlinkMacSystemFont,'Helvetica Neue', sans-serif
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+
+
 img {
-max-width: 30%;
-height: auto;
-margin: 0 auto;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+  
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;  
+   
+
 
 }
 
@@ -23,12 +104,23 @@ margin: 0 auto;
         <figure id="img-div">
             <img id="image" src="developers image.jpg"
              alt="developers working on a web interface"/>
-             <figcaption id="tribute-info">
+             <figcaption id="img-caption">
                 Desmond and Ismael seen working developing websites.From right(Ismael) and left(Desmond).
               </figcaption>
         </figure>
-        <a id="tribute-link" href="https://github.com/28919926/desmond-and-ismael-html-css" target="_blank">Ismael and Desmond repo</a>
-     
+        <section id="tribute-info">
+            <h2>Here is brief story of how they started</h2>
+            <ol>
+                <li> 
+                    <strong>03.March.2022</strong> -We first met at the gather app that is for microverse company
+                </li>
+                <li><strong>16.March.2022</strong>-They did their first project on git hub.
+            </li>
+            <li><strong>16.March.2022</strong>They did a presentation and submision for the same
+            </li>
+            </ol>
+        <a id="tribute-link" href="https://github.com/28919926/dsmond-ismael-html-css/settings/access?guidance_task=" target="_blank">Ismael and Desmond repo</a>
+    </section>
     </main>
     <section id="tribute-info">
         <h2>Here is brief story of how they started</h2>
